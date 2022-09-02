@@ -1,0 +1,17 @@
+FROM php:7.4-fpm
+RUN docker-php-ext-install  pdo pdo_mysql mysqli fileinfo
+RUN apt-get update && \
+     apt-get install -y \
+         supervisor \
+         cron \
+         libzip-dev \
+         libzip4 \
+         procps \
+         && docker-php-ext-install zip 
+#
+#COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+#COPY scheduler /etc/cron.d/scheduler
+#RUN chmod 0644 /etc/cron.d/*
+#RUN crontab /etc/cron.d/scheduler
+
+#CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]

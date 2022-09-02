@@ -1,0 +1,408 @@
+/* Não esquecer de estilizar os textos dentro dos inputs */
+
+:root {
+    --red: rgba(175, 25, 28, 0.8);
+    --gray: rgba(91, 91, 96, 1);
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--red);
+}
+
+.cadastre{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.endereco, .contato{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.cadastro-box{
+    width: 1300px;
+    height: 2300px;
+    background-color: #f1f1f1;
+    border: solid 1px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.text{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo{
+    width: 270px;
+    height: 125px;
+    margin-top: 50px;
+}
+
+.input-flex{
+    display: flex;
+    margin-top: 50px;
+}
+
+.contato-flex{
+    display: flex;
+    margin-top: 50px;
+}
+
+.input{
+    width: 740px;
+    height: 50px;
+}
+
+.input-contato{
+    width: 740px;
+    height: 50px;
+}
+
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-flex label{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    color: var(--gray);
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.contato-flex label{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    color: var(--gray);
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.buttons{
+    margin-top: 80px;
+}
+
+.btn-voltar, .btn-cadastrar{
+    width: 380px;
+    height: 60px;
+    background-color: var(--red);
+    font-family: 'Inter', 'sans-serif';
+    font-size: 28px;
+    color: #fff;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+
+/* dispositivos móveis */
+@media only screen and (max-width: 480px) {
+    
+    .cadastro-box{
+        width: 95%;
+        height: 2600px;
+        /* flex-wrap: wrap; */
+        border-radius: 0;
+    }
+
+    .input-flex{
+        flex-direction: column;
+    }
+    
+    .contato-flex{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .contato-flex label, .input-flex label{
+        font-size: 24px;
+    }
+
+    .input, .input-contato{
+        margin-top: 5px;
+        width: 250px;
+        height: 40px;
+    }
+
+    main{
+        height: auto;
+    }
+
+    .cadastre{
+        margin-top: 80px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .btn-voltar,.btn-cadastrar{
+        margin-right: 0;
+        font-size: 24px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .btn-cadastrar{
+        margin-top: 60px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text{
+        font-size: 24px;
+    }
+
+    .logo{
+        width: 75%;
+    }
+
+
+}
+
+/* ipads, tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    
+    .cadastro-box{
+        width: 95%;
+        height: 2900px;
+        flex-wrap: wrap;
+    }
+
+    .input-flex{
+        flex-direction: column;
+    }
+    
+    .contato-flex{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .contato-flex label, .input-flex label{
+        font-size: 24px;
+    }
+
+    .input, .input-contato{
+        margin-top: 5px;
+        width: 420px;
+        height: 40px;
+    }
+
+    main{
+        height: auto;
+    }
+
+    .cadastre{
+        margin-top: 80px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .btn-voltar,.btn-cadastrar{
+        margin-right: 0;
+        font-size: 24px;
+        width: 350px;
+        height: 50px;
+    }
+
+    .btn-cadastrar{
+        margin-top: 80px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text{
+        font-size: 24px;
+    }
+
+}
+
+/* telas pequenas, laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .cadastro-box{
+        width: 90%;
+        height: 3000px;
+        flex-wrap: wrap;
+    }
+
+    .input-flex{
+        flex-direction: column;
+    }
+    
+    .contato-flex{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .contato-flex label, .input-flex label{
+        font-size: 24px;
+    }
+
+    .input, .input-contato{
+        margin-top: 5px;
+        width: 600px;
+    }
+
+    main{
+        height: 3300px;
+    }
+
+    .cadastre{
+        margin-top: 110px;
+    }
+
+    .btn-voltar,.btn-cadastrar{
+        margin-right: 0;
+    }
+
+    .btn-cadastrar{
+        margin-top: 75px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text{
+        font-size: 28px;
+    }
+
+}
+
+/* telas grandes, desktops */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+    .cadastro-box{
+        width: 80%;
+        height: 3000px;
+    }
+
+    .input-flex{
+        flex-direction: column;
+    }
+    
+    .contato-flex{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .contato-flex label, .input-flex label{
+        font-size: 28px;
+    }
+
+    .input, .input-contato{
+        margin-top: 5px;
+    }
+
+    main{
+        height: 3300px;
+    }
+
+    .cadastre{
+        margin-top: 60px;
+    }
+
+    .btn-voltar,.btn-cadastrar{
+        margin-right: 0;
+    }
+
+    .btn-cadastrar{
+        margin-top: 75px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text{
+        font-size: 28px;
+    }
+
+}
+
+/* telas muito grandes, televisores e monitores */
+@media only screen and (min-width: 1201px) {
+    
+    .cadastro-box{
+        width: 80%;
+        height: 3000px;
+    }
+
+    .input-flex{
+        flex-direction: column;
+    }
+    
+    .contato-flex{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .contato-flex label, .input-flex label{
+        font-size: 28px;
+    }
+    
+    .input, .input-contato{
+        margin-top: 5px;
+    }
+
+    main{
+        height: 3300px;
+    }
+
+    .cadastre{
+        margin-top: 60px;
+    }
+
+    .btn-voltar,.btn-cadastrar{
+        margin-right: 0;
+    }
+
+    .btn-cadastrar{
+        margin-top: 75px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text{
+        font-size: 28px;
+    }
+
+}
+

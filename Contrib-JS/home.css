@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-content-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(175, 25, 28, 0.8);
+}
+
+.acesso-box{
+    width: 960px;
+    height: 910px;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acesso-box h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    color: #5b5b60;
+    padding-bottom: 80px;
+}
+
+.acesso-box h1 span{
+    font-weight: bold;
+}
+
+.acesso-box label{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    color: #5b5b60;
+    text-align: center;
+}
+
+.logo-home{
+    width: 370px;
+    height: 170px;
+    margin-top: 60px;
+}
+
+.input-home{
+    width: 80%;
+    height: 70px;
+    margin-top: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    color: rgb(91, 91, 96, 0.8);
+    font-weight: 100;
+    padding-left: 30px;
+}
+
+.btn-home{
+    width: 300px;
+    height: 60px;
+    background-color: rgb(175, 25, 28, 0.8);
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    color: #fff;
+    margin-top: 75px;
+    cursor: pointer;
+}
+
+.campo-home{
+    margin-left: 25px;
+}
+
+
+/* height acaba não sendo tão relevante na responsividade por causa da rolagem contínua da tela, mas width sim */
+
+
+/* dispositivos móveis */
+@media only screen and (max-width: 480px) {
+   
+    .acesso-box{
+        width: 80%;
+    }
+    
+    .acesso-box h1{
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    .acesso-box label{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .logo-home{
+        width: 80%;
+    }
+
+    .btn-home{
+        width: 200px;
+    }
+    
+    .input-home{
+        margin-top: 50px;
+    }
+
+    .campo-home{
+        margin-left: 45px;
+    }
+
+}
+
+
+/* ipads, tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    
+    .acesso-box{
+        width: 80%;
+    }
+
+    .acesso-box h1{
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .btn-home{
+        width: 250px;
+    }
+
+    .campo-home{
+        margin-left: 25px;
+    }
+
+}
+
+
+/* telas pequenas, laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .acesso-box{
+        width: 80%;
+    }
+    
+    .acesso-box h1{
+        margin-top: 50px;
+        color: #5b5b60;
+    }
+
+    .campo-home{
+        margin-left: 25px;
+    }
+
+}
+
+
+/* telas grandes, desktops. Mas não é necessário nenhum ajuste neste intervalo de largura, para esta tela de index
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+} */
+
+
+/* talvez não seja necessário utilizar essa media query pois comecei desenvolvendo o layout com base em um frame desktop do figma (1440x1024px)
+telas muito grandes, televisores e monitores
+@media only screen and (min-width: 1201px) {
+    
+} */
+

@@ -1,0 +1,44 @@
+[02-Sep-2022 10:03:51 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 9
+[02-Sep-2022 10:03:51 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 11
+[02-Sep-2022 10:04:50 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 9
+[02-Sep-2022 10:04:50 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 11
+[02-Sep-2022 10:05:26 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 4
+[02-Sep-2022 10:05:26 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 6
+[02-Sep-2022 10:09:29 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 4
+[02-Sep-2022 10:09:29 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 6
+[02-Sep-2022 10:10:04 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 4
+[02-Sep-2022 10:10:04 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 6
+[02-Sep-2022 10:10:16 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 4
+[02-Sep-2022 10:10:16 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 6
+[02-Sep-2022 10:10:24 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 4
+[02-Sep-2022 10:10:24 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 6
+[02-Sep-2022 10:22:27 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 4
+[02-Sep-2022 10:22:27 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 6
+[02-Sep-2022 10:43:49 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 4
+[02-Sep-2022 10:43:49 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 6
+[02-Sep-2022 10:49:33 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 4
+[02-Sep-2022 10:49:33 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 6
+[02-Sep-2022 10:49:36 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 4
+[02-Sep-2022 10:49:36 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 6
+[02-Sep-2022 10:50:52 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 4
+[02-Sep-2022 10:50:52 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 6
+[02-Sep-2022 10:55:37 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 4
+[02-Sep-2022 10:55:37 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 6
+[02-Sep-2022 10:58:49 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 4
+[02-Sep-2022 10:58:49 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 6
+[02-Sep-2022 11:04:37 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 4
+[02-Sep-2022 11:04:37 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 6
+[02-Sep-2022 11:08:03 America/Sao_Paulo] PHP Notice:  Undefined index: name in /var/www/html/welcome.php on line 4
+[02-Sep-2022 11:08:03 America/Sao_Paulo] PHP Notice:  Undefined index: cnpj in /var/www/html/welcome.php on line 6
+[02-Sep-2022 11:34:25 America/Sao_Paulo] PHP Notice:  Undefined variable: obj in /var/www/html/welcome.php on line 30
+[02-Sep-2022 11:34:25 America/Sao_Paulo] PHP Notice:  Trying to get property 'cnpj' of non-object in /var/www/html/welcome.php on line 30
+[02-Sep-2022 11:34:25 America/Sao_Paulo] PHP Notice:  Undefined variable: obj in /var/www/html/welcome.php on line 31
+[02-Sep-2022 11:34:25 America/Sao_Paulo] PHP Notice:  Trying to get property 'logradouro' of non-object in /var/www/html/welcome.php on line 31
+[02-Sep-2022 11:34:25 America/Sao_Paulo] PHP Notice:  Undefined variable: obj in /var/www/html/welcome.php on line 32
+[02-Sep-2022 11:34:25 America/Sao_Paulo] PHP Notice:  Trying to get property 'capital_social' of non-object in /var/www/html/welcome.php on line 32
+[02-Sep-2022 11:34:25 America/Sao_Paulo] PHP Notice:  Undefined variable: obj in /var/www/html/welcome.php on line 33
+[02-Sep-2022 11:34:25 America/Sao_Paulo] PHP Notice:  Trying to get property 'razao_social' of non-object in /var/www/html/welcome.php on line 33
+[02-Sep-2022 11:51:46 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$cnpj in /var/www/html/boleto.php on line 45
+[02-Sep-2022 11:51:46 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$razao_social in /var/www/html/boleto.php on line 46
+[02-Sep-2022 11:51:46 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$logradouro in /var/www/html/boleto.php on line 47
+[02-Sep-2022 11:51:46 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$capital_social in /var/www/html/boleto.php on line 48
